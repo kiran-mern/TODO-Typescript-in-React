@@ -4,7 +4,7 @@ type Input={
 }
 const Input = ({inputValue,setInputValue}: Input) => {
   return (
-    <input type='text'  className='w-full p-2 rounded-sm mb-2 '
+    <input type='text'  className='w-full p-2 rounded-sm mb-2 bg-white text-black '
           value={inputValue}
            onChange={(event)=>setInputValue(event.target.value)}
            placeholder="Add new item"/>

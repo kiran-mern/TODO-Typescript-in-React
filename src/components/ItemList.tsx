@@ -17,7 +17,7 @@ export const ItemList = ({ items, setItems }: ItemList) => {
   return  items.map((data,index) => (
         <div
           key={data.id}
-          className='flex justify-between  p-2 border rounded-sm my-1' >
+          className='flex justify-between  p-2 border rounded-sm my-1 ' >
           <p> {index+1}.{data.title}</p>
           <button onClick={() => handleDelete(data.id)}>
           <svg
